@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-container {
+    display: flex;
+    border: 3px solid darkorchid;
+    font-weight: bold;
+}
+
+
+
+.one {
+    background-color: tomato;   
+    width: 10px;
+}
+.two {
+    background-color: bisque;
+}
+
+.three {
+    background-color: palegreen;
+    
+}
+
+
+.box {
+    border: 1px solid deepskyblue;
+    flex: 1 1 auto;
+}

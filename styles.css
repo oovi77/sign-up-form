@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*border: solid 1px red; */
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+body * {
+    border: solid 1px red;
+}
+
+.img-container {
+    border: solid 1px blueviolet;
+    color: white;
+    
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+    text-align: center;
+
+    background-image: url(img/snow-town.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}   
+
+.photo-credit {
+    /* margin-bottom: auto; */
+}
+
+.odin-text {
+    margin-top: 175px;
+    height: 100px;
+}
+
